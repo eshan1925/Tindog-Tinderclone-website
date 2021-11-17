@@ -115,3 +115,25 @@ h3{
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.card{
+    padding: 2rem;
+    border: transparent;
+}
+
+.card-header , .card-body{
+    border: 1px solid gray;
+}
+
+.card-body{
+    border-top: transparent;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
