@@ -7,7 +7,7 @@ body{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1{
@@ -53,8 +53,10 @@ h2{
 /* Title Image */
 
 .title-image{
-    width: 60%;
-    transform: rotate(0deg);
+    width: 16%;
+    transform: rotate(25deg);
+    position:absolute;
+    right: 25%;
 }
 
 /* Features section */
@@ -77,8 +79,10 @@ h3{
 }
 
 #features{
+    background-color: white;
     text-align: center;
     padding: 7% 15%;
+    position:relative;
 }
 
 /* Testinomial Section */
@@ -136,4 +140,53 @@ h3{
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta{
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.last-line{
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/*Footer */
+
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #8f8f8f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social-icons{
+    margin: 20px 10px;
+    color: black;
+    font-size: 25px;
+}
+
+
+.social-icons:hover{
+    color: #ff4c68;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    .navbar-brand{
+        font-size: 3.5rem;
+    }
 }
